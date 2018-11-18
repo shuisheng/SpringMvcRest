@@ -25,6 +25,7 @@ This is an example of spring mvc rest service
         }
     }
 ```
+more detail about WebApplicationInitializer, please refer to [How to use Spring’s WebApplicationInitializer](https://www.intertech.com/Blog/how-to-use-springs-webapplicationinitializer/)
 ## 2. The second method, extend AbstractAnnotationConfigDispatcherServletInitializer
 ```sh
 public class AppInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
