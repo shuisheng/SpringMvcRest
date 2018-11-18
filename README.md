@@ -2,6 +2,8 @@
 This is an example of spring mvc rest service
 
 # Java Config (use Java Config instead of web.xml)
+About DispatcherServlet configuration, please refer to [web.xml vs Initializer with Spring
+](https://www.baeldung.com/spring-xml-vs-java-config)
 
 ## 1. The first method, implement Spring’s WebApplicationInitializer
 ```sh
