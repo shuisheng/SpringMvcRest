@@ -47,10 +47,14 @@ public class AppInitializer extends AbstractAnnotationConfigDispatcherServletIni
 ```
 # Use Jackson return response with json format
 add jackson dependency as below in pom.xml
-```jshelllanguage
+```sh
 <dependency>
     <groupId>com.fasterxml.jackson.core</groupId>
     <artifactId>jackson-databind</artifactId>
     <version>2.9.6</version>
 </dependency>
 ```
+# How to run
+There are two methods to run this service
+- mvn tomcat7:run
+- configure tomcat local server in IDE
