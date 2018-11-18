@@ -1,9 +1,9 @@
-# SpringMvcRest
+# Spring Mvc Rest
 This is an example of spring mvc rest service
 
 # Java Config (use Java Config instead of web.xml)
 
-## 1. the first method, implement Spring’s WebApplicationInitializer
+## 1. The first method, implement Spring’s WebApplicationInitializer
 ```sh
     public class AppInitializer implements WebApplicationInitializer {
         public void onStartup(ServletContext servletContext) throws ServletException {
@@ -25,7 +25,7 @@ This is an example of spring mvc rest service
         }
     }
 ```
-## 2. the second method, extend AbstractAnnotationConfigDispatcherServletInitializer
+## 2. The second method, extend AbstractAnnotationConfigDispatcherServletInitializer
 ```sh
 public class AppInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
 
@@ -45,7 +45,7 @@ public class AppInitializer extends AbstractAnnotationConfigDispatcherServletIni
     }
 }
 ```
-# use Jackson return response with json format
+# Use Jackson return response with json format
 add jackson dependency as below in pom.xml
 ```jshelllanguage
 <dependency>
