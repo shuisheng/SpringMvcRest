@@ -1,5 +1,5 @@
 # SpringMvcRest
-this an example of spring mvc rest service
+This is an example of spring mvc rest service
 
 # Java Config (use Java Config instead of web.xml)
 
